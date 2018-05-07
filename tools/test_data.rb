@@ -1,0 +1,16 @@
+lucas = Customer.new("Lucas", "Eckman")
+callie = Customer.new("Callie", "Bruemmer")
+callie2 = Customer.new("Callie", "Bellevue")
+ralph = Customer.new("Ralph", "Emerson")
+steve = Customer.new("Steve", "Ribeiro")
+sarah = Customer.new("Sarah", "Cohen")
+
+elchucho = Restaurant.new("El Chucho")
+meridianpint = Restaurant.new("Meridian Pint")
+beucherts = Restaurant.new("Beuchert's Saloon")
+littlepearl = Restaurant.new("Little Pearl")
+
+review1 = lucas.add_review(elchucho, "I loved it")
+review2 = callie.add_review(littlepearl, "I liked it")
+review3 = steve.add_review(littlepearl, "hipster crap")
+review4 = sarah.add_review(meridianpint, "great beer")
